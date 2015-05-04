@@ -161,19 +161,18 @@
 <img class="center-block" src="logo.png">
     <span>Williammustaffa<br>2015 &copy; jquery.dad.js</span>
 </footer>
-<div class="comments">
-    <script src="jquery.min.js"></script>
-    <script src="../source/jquery.dad.js"></script>
-    <script src="jquery.nicescroll.min.js"></script>
-    <script>
-        $(function(){
-            $('html').niceScroll({cursorcolor:"#639BF6",cursorwidth :10, cursorborder: 'none'});
-            $('.dad').dad();
-            var d=$('.dad2').dad();
-            d.addDropzone('.dropzone',function(e){
-                e.remove();
-            });
-        })
-    </script>
+<script src="jquery.min.js"></script>
+<script src="../source/jquery.dad.js"></script>
+<script src="jquery.nicescroll.min.js"></script>
+<script>
+    $(function(){
+        $('html').niceScroll({cursorcolor:"#639BF6",cursorwidth :10, cursorborder: 'none'});
+        $('.dad').dad();
+        var d=$('.dad2').dad();
+        d.addDropzone('.dropzone',function(e){
+            e.remove();
+        });
+    })
+</script>
 </body>
 </html>
